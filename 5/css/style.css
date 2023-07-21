@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: rgba(207, 207, 207, 0.432);
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+header h1{
+    font-size: 40px;
+}
+
+main{
+    display: flex;
+    height: 80vh;
+}
+main nav{
+    width: 20%;
+    background: rgba(153, 153, 153, 0.432);
+}
+nav p{
+    font-size: 20px;
+    padding: 15px 12px;
+}
+main article{
+    width: 60%;
+    background: rgba(105, 105, 105, 0.432);
+}
+article h2 {
+    font-size: 35px;
+    padding: 15px 12px;
+}
+article p {
+    font-size: 20px;
+    padding: 15px 12px;
+}
+main aside{
+    width: 20%; 
+    background: rgba(153, 153, 153, 0.432);
+}
+aside p{
+    font-size: 20px;
+    padding: 15px 12px;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 25px;
+}

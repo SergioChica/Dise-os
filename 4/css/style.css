@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+img {
+    width: 60%;
+    height: auto;
+    margin: 5px 5px;
+    box-shadow: 5px 5px 5px 5px rgba(117, 117, 117, 0.466);
+}

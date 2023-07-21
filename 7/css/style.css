@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body header{
+    background: rgb(250, 128, 113);
+    height: 15vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1{
+    margin: 0 0 10px 0;
+}
+menu{
+    background-color: rgb(24, 189, 150);
+    height: 5vh;
+    display: flex;  
+    align-items: center;
+}
+nav{
+    width: 50%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+menu a{
+    text-decoration: none;
+    color: white;
+}
+
+menu div{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+  
+}
+
+div a{
+    padding: 0 10px;  
+}
+
+main{
+    display: flex;
+}
+main .lateral{
+    width: 30%;
+    background-color: rgb(221, 221, 221);
+}
+main .columna{
+    width: 70%;
+}
+.primera{
+    width: 400px;
+    height: 400px;
+    margin: 0 15px;
+}
+.primera-columna{
+    width: 668px;
+    height: 200px;
+    padding: 0 0 0 10px;
+}
+.final{
+    height: 200px;
+    width: 400px;
+    margin: 0 15px;
+}
+.final-columna{
+    width: 668px;
+    height: 200px;
+    padding: 0 0 0 10px;
+}
+.lateral h2 {
+    padding: 20px 0px 26px 15px;
+}
+.lateral p {
+    padding: 0px 0px 25px 15px;
+}
+.columna h2 {
+    padding: 20px 0px 17px 10px;
+}
+.columna p {
+    padding: 10px 0 10px 10px;
+}
+.linea{
+    border-bottom: 3px solid black;
+}
+footer{
+    background-color: rgb(221, 221, 221);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
