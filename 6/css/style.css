@@ -17,14 +17,15 @@ body{
 
 body main{
     background: white;
-    height: 80vh;
+    height: 60vh;
     width: 20vw;
     border-radius: 10px ;
     margin: 0 10px;
 }
+
 main header{
     background: #ff9b92;
-    height: 10vh;
+    height: 20%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     display: flex;
@@ -32,8 +33,8 @@ main header{
     align-items: center;
 }
 
-main div {
-    height: 45vh;
+.textos{
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -42,28 +43,26 @@ main div {
     padding: 10px 0;
 }
 
-div p {
+.textos p {
     border-bottom: 1px solid #bdbdbdb7;
     margin: 0;
     padding: 5px 0;
 }
 
-main .boton{
-    height: 20vh;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-.boton a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.boton{
     background: #d1d0d0;
     text-decoration: none;
     color: black;
     font-size: 25px;
-    height: 50px;
-    width: 150px;
     border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
 
+.blanco{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
 }
